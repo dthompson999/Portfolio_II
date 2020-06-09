@@ -1,0 +1,63 @@
+
+#main {
+    height: 1200px;
+    padding-top: 150px;
+    background-color: gray;
+    text-align: center;
+}
+.header {
+    margin-left: -100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.col {
+    width: 400px;
+    height: 600px;
+    color: white;
+    /* background-color: black; */
+    text-align: center;
+}
+.photo {
+    margin-left: 150px;
+    margin-top: 75px;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 300px;
+    background-color: red;
+}
+.projects {
+    margin-top: 30px;
+}
+.project_row {
+    margin-top: 50px;
+}
+.description {
+    margin-top: 75px;
+    width: 325px;
+}
+.project_img {
+    width: 150px;
+    height: 200px;
+    background-color: black;
+    display: inline-block;
+}
+.project_info {
+    margin-left: 30px;
+    vertical-align: top;
+    display: inline-block;
+}
+h5 {
+    vertical-align: top;
+    display: inline-block;
+}
+.proj_desc {
+    width: 500px;
+    
+}
+.form_box {
+    width: 800px;
+    margin-left: 700px;
+    text-align: center;
+}
+.card {
+    text-align: center;
+}

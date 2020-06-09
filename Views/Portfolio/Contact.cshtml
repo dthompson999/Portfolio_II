@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="~/css/style.css"/>
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand"><h3>David's Portfolio</h3></a>
+            <div class="navbar navbar-dark bg-dark">
+                <a class="nav-item nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="/projects">Projects</a>
+                <a class="nav-item nav-link" href="/contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <div id="main">
+        <div class="form_box">
+            <div class="card text-white bg-dark mb-3 " style="max-width: 24rem;">
+                <div class="card-header">Contact Me</div>
+                    <div class="card-body">
+                        <form action="/process" method="post">
+                            <div class="form-group">
+                                <label for="name">Name:</label>
+                                <input type="text" class="form-control" name="email" id="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" class="form-control" name="password" id="password">
+                            </div>
+                            <div class="form-group">
+                                <label for="texarea">Message</label>
+                                <textarea class="form-control" id="msg_box" rows="3"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
